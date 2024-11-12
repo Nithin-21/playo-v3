@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Playo template-3</title>
+    </head>
+    <body>
+      <header>
+        <center>
+         <img src="images/new-logo-playo.webp"  height="80"  width="120">
+        </center>
+        <h3>
+          <a href="index.html">Home</a>  |
+          <a href="about.html">about</a>  | 
+          <a href="contactus.html">Contact Us</a>  |
+          <a href="sports.html">Sports</a>  |
+          <a href="venuedetails.html">Venues</a>  |
+          <a href="#">Book</a> 
+        </h3>
+      </header>
+      <hr>
+       <form name="playobooking" action="https://playo.com" method="get" >
+        <table   align="center" cellspacing="20">
+            <caption align="center"> </caption>
+            <tr>
+                <td>
+                   <label for="">Sports</label>
+                </td>
+                <td> &nbsp;&nbsp;
+                 <select name="Sports">
+                    <option value="Box cricket">Box Cricket</option>
+                    <option value="Badminton">Badminton</option>
+                    <option value="Basket Ball">Basket Ball</option>
+                    <option value="Ball Badminton">Ball Badminton</option>
+                    <option value="Table Tennis">Table Tennis</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="date">Date</label>
+              </td>
+              <td>&nbsp;&nbsp;
+                <input type="date" name="date" id="name">
+              </td>
+              
+            </tr>
+            <tr>
+              <td>
+                <label for="time"> Start Time</label>
+              </td>
+              <td>&nbsp;&nbsp;
+                <input type="time" name="time" id="time">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+              <label for="duration">Duration</label>
+            </td>
+            <td>&nbsp;&nbsp;
+              <select >
+                <option value="Select duration">Select duration </option>
+                <option value="1hr" id="duration">1:00:00 hr</option>
+                <option value="1hr30min">1:30:00 hr </option>
+                <option value="2hr"> 2:00:00 hr</option>
+                <option value="2hr30min" >2:30:00 hr</option>
+                <option value="3hr30min" >3:00:00 hr</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="court">court</label>
+              </td>
+              <td>&nbsp;&nbsp;
+                <select name="" id="">
+                  <option value="--Select Court--">--Select Court--</option>
+                  <option value="Court-1">Court-1</option>
+                  <option value="Court-2">Court-2</option>
+                  <option value="Court-3">Court-3</option>
+                  <option value="Court-4">Court-4</option>
+                  <option value="Court-5">Court-5</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center">
+                <input type="submit" value="Add To Cart">
+
+              </td>
+            </tr>
+
+        </table>
+
+       </form>
+
+
+
+      <br><br><br><br><br><br><br><br>
+      <hr>
+      <footer>
+        <center>
+          <h5>  @2024 360 Digrii Pvt Ltd.</h5>
+          <h5>All Rights Reserved.</h5>
+        </center>
+      </footer>
+    </body>
+</html>
